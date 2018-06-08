@@ -1,0 +1,7 @@
+def main():
+    f=open("pandu.txt","r")
+    x=f.read()
+    print(x)
+    f.close()
+if __name__ == "__main__":
+    main()
